@@ -5,8 +5,11 @@ const Main = () => {
     <div>
         <main>
             <div className='bg-black bg-opacity-80 flex flex-col items-center justify-center pb-7 pt-20'>
-                <h1 className='font-bold text-amber-400'>About me</h1>
-                <h1 className='text-2xl text-neutral-200 font-bold mb-4'>Educations</h1>
+              <div className=''>
+              <h1 className='font-bold text-amber-400 self'>Services</h1>
+                <h1 className='text-2xl text-neutral-200 font-bold mb-4'>Tech Stack</h1>
+              </div>
+
                 <div className='flex justify-center gap-20'>
                     <div className='flex flex-col'>
                       <p className='text-lg font-medium text-amber-400 italic'>2021 - Now</p>

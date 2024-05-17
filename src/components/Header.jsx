@@ -10,7 +10,7 @@ const Header = () => {
     <div>
         <header className='flex justify-center gap-20 bg-neutral-800 text-neutral-200 '>
             <div className='w-1/3 flex flex-col justify-center px-20 py-32'>
-                <p className='text-amber-400 text-xs font-medium pb-2'>Hi, My Name Is</p>
+                <p className='text-amber-400 text-base font-medium pb-2'>Hi, My Name Is__</p>
                 <h1 className='font-extrabold text-3xl'>Muhamad Iqbal<br /> <span className='text-amber-400'> Fauzi.</span></h1>
                 <div className='flex gap-5 mt-4'>
                     <img src={linkedin} alt="linkedin" width={20} className='text-neutral-200 hover:shadow-lg hover:shadow-amber-400'/>
@@ -27,8 +27,8 @@ const Header = () => {
             </div>
             <div className='w-1/3 px-20 py-32'>
                 <p className='text-amber-400 text-xs font-medium'>I Am</p>
-                <h1 className='font-bold text-2xl mb-2 mt-2'>Web Developer</h1>
-                <p>I enjoy integrating elegant design with robust functionality. I believe that good software not only looks good but also operates seamlessly and effectively meets the needs of users.</p>
+                <h1 className='font-bold text-2xl'>Web Developer <span className='text-2xl text-amber-400'>|</span><br/> <span className='text-base text-neutral-500'>Informatics Engineering Student</span></h1>
+                <p className='mt-3'>I enjoy integrating elegant design with robust functionality. I believe that good software not only looks good but also operates seamlessly and effectively meets the needs of users.</p>
             </div>
         </header>
     </div>
