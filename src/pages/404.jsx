@@ -5,7 +5,7 @@ const ErrorPage = () => {
   return (
     <div className="flex flex-col justify-center min-h-screen items-center">
         <h1 className="text-3xl font-bold">Opsss!!</h1>
-        <p className="text-slate-500">No One</p>
+        <p className="text-slate-500">Error dul!!, ga ada apa-apa disini<br/> Balik</p>
         <p className="text-slate-500">{error.statusText || error.message}</p>
     </div>
   )

@@ -1,37 +1,28 @@
 import React from 'react'
-import linkedin from '../assets/images/linkedin.png'
 import github from '../assets/images/github.png'
+import linkedin from '../assets/images/linkedin.png'
 import instagram from '../assets/images/instagram.png'
-import tiktok from '../assets/images/tiktok.png'
-import rimuru from '../assets/images/Rimuru.png'
+import iqbal from '../assets/images/iqbal.png'
 
 const Header = () => {
   return (
-    <div>
-        <header className='flex justify-center gap-20 bg-neutral-800 text-neutral-200 '>
-            <div className='w-1/3 flex flex-col justify-center px-20 py-32'>
-                <p className='text-amber-400 text-base font-medium pb-2'>Hi, My Name Is__</p>
-                <h1 className='font-extrabold text-3xl'>Muhamad Iqbal<br /> <span className='text-amber-400'> Fauzi.</span></h1>
-                <div className='flex gap-5 mt-4'>
-                    <img src={linkedin} alt="linkedin" width={20} className='text-neutral-200 hover:shadow-lg hover:shadow-amber-400'/>
-                    <img src={github} alt="github" width={20} className='text-neutral-200 hover:shadow-lg hover:shadow-amber-400'/>
-                    <img src={instagram} alt="instagram" width={20} className='text-neutral-200 hover:shadow-lg hover:shadow-amber-400'/>
-                    <img src={tiktok} alt="tiktok" width={20} className='text-neutral-200 hover:shadow-lg hover:shadow-amber-400 '/>
-                </div>
-                <div className='mt-5'>
-                    <button className='bg-amber-400 font-bold text-sm text-neutral-800 px-4 py-2 rounded-md hover:bg-white '>CONTACT ME</button>
-                </div>
+    <div className='bg-gradient-to-t from-bg from-10% to-second to-99% flex flex-col lg:flex-row md:flex-row xl:flex-row'>  
+        <div className='pt-20 lg:px-20 px-10 lg:w-1/2 md:w-1/2'>
+            <p className=' text-xs text-primary lg:text-sm md:text-sm xl:text-base'>Hello, My Name Is__</p>
+            <h1 className='font-bold text-xl text-light lg:text-2xl md:text-2xl xl:text-3xl '>Muhamad <span className='text-primary'>Iqbal</span> Fauzi</h1>
+            <hr className='w-1/4 text-primary mt-2 mb-2'/>
+            <p className='text-xs text-light font-thin mb-2 lg:text-sm md:text-sm xl:text-base'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis, quasi natus? Esse sint atque perspiciatis et minus quidem delectus sapiente illo, in consequatur quasi. Velit rerum quibusdam iure dolorum inventore.</p>
+            <div className='flex gap-3 mb-5'>
+                <img src={github} alt="github" className='w-4 h-4'/>
+                <img src={linkedin} alt="linkedin" className='w-4 h-4'/>
+                <img src={instagram} alt="instagram" className='w-4 h-4'/>
             </div>
-            <div className='w-1/3 pt-60'>  
-                <img src={rimuru} alt="Foto" className=''/>
-            </div>
-            <div className='w-1/3 px-20 py-32'>
-                <p className='text-amber-400 text-xs font-medium'>I Am</p>
-                <h1 className='font-bold text-2xl'>Web Developer <span className='text-2xl text-amber-400'>|</span><br/> <span className='text-base text-neutral-500'>Informatics Engineering Student</span></h1>
-                <p className='mt-3'>I enjoy integrating elegant design with robust functionality. I believe that good software not only looks good but also operates seamlessly and effectively meets the needs of users.</p>
-            </div>
-        </header>
+        </div>
+        <div className='flex flex-col justify-center items-center lg:w-1/2 md:w-1/2 '> 
+            <img src={iqbal} alt="iqbal" className='w-1/2 lg:w-80 md:w-80 self-center items-center xl:w-96'/>
+        </div>
     </div>
+
   )
 }
 
