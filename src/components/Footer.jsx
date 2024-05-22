@@ -6,7 +6,7 @@ import wa from '../assets/images/social.png'
 const Footer = () => {
   return (
     <div className='bg-bg flex flex-col justify-center'>
-        <div className='bg-bg flex flex-col lg:flex-row gap-5 justify-center pt-14 pb-20 px-10'>
+        <div className='bg-bg flex flex-col lg:flex-row gap-5 justify-center pt-14 pb-20 px-10 lg:px-20'>
         <div className='w-1/2'>
             <h1 className='text-primary text-base font-bold'>Get in Touch</h1>
             <p className='text-light text-xs'>For business inquiry please send email to <a className='text-primary underline' href="">miqbalfauzi000@gmail.com</a></p>

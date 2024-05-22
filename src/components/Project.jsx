@@ -1,20 +1,35 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-// Contoh data proyek
 const projects = [
   {
     id: 1,
+    progress: 'Finished',
     title: 'Coffeess',
-    imageUrl: "../assets/images/coffeess.png",
+    imageUrl: "/img/coffeess.png",
     description: 'This is a coffee ordering application, namely a full-stack website application project that I created to fulfill the final assignment for the web programming course in the 5th semester.',
     techStack: [
-      { name: 'React', imageUrl: 'https://via.placeholder.com/50' },
-      { name: 'Tailwind CSS', imageUrl: 'https://via.placeholder.com/50' },
+      { name: 'React', imageUrl: "/img/react.png" },
+      { name: 'Tailwind CSS', imageUrl: "img/tailwind.png" },
+      { name: 'express', imageUrl: "/img/express.png" },
+      { name: 'mongo db', imageUrl: "img/mongo.png" },
     ],
   },
   {
     id: 2,
+    progress: 'In Progress',
     title: 'Caloriest Burn Predictions',
+    imageUrl: 'https://via.placeholder.com/300',
+    description: 'A website application to detect the amount of burned calories using a machine learning approach.',
+    techStack: [
+      { name: 'Vue', imageUrl: 'https://via.placeholder.com/50' },
+      { name: 'Bootstrap', imageUrl: 'https://via.placeholder.com/50' },
+    ],
+  },
+  {
+    id: 3,
+    progress: 'Finished',
+    title: 'Profile : SPS AR-RAHMA',
     imageUrl: 'https://via.placeholder.com/300',
     description: 'A website application to detect the amount of burned calories using a machine learning approach.',
     techStack: [
@@ -26,11 +41,12 @@ const projects = [
 ];
 
 const ProjectCard = ({ project }) => (
-  <div className="max-w-xs overflow-hidden shadow-lg bg-gradient-to-r from-second to-bg rounded-lg">
-    <img className="w-full p-3" src={project.imageUrl} alt={project.title} />
+  <div className=" max-w-xs overflow-hidden shadow-lg bg-gradient-to-r from-second to-bg rounded-lg pb-5 flex flex-col">
+  <Link to="/project" className="flex flex-col h-full">
+  <img className="w-full rounded-md p-3 hover:scale-105 transition ease-in-out delay-150 duration-300" src={project.imageUrl} alt={project.title} />
     <div className="px-6 py-1">
       <div className="font-bold text-lg mb-2 text-primary">{project.title}</div>
-      <p className=" text-sm text-light">{project.description}</p>
+      <p className="text-sm text-light">{project.description}</p>
     </div>
     <div className="px-6 pt-4 pb-2">
       {project.techStack.map((tech) => (
@@ -38,11 +54,14 @@ const ProjectCard = ({ project }) => (
           key={tech.name}
           src={tech.imageUrl}
           alt={tech.name}
-          className="inline-block h-12 w-12 mr-2 mb-2 "
+          className="inline-block h-6 w-6 mr-2 mb-2"
         />
       ))}
     </div>
-  </div>
+    <h1 className="mt-auto flex justify-end mr-10 text-primary font-medium text-sm">{project.progress}</h1>
+  </Link>
+</div>
+
 );
 
 const Projects = () => (  
@@ -56,7 +75,7 @@ const Projects = () => (
     ))}
   </div>
   <h1 className='self-end text-primary font-medium text-sm mt-1 hover:text-light lg:mr-20'>
-    <a href="/project">Show All</a>
+    <Link to="/project">Show all</Link>
   </h1>
   </div>
 );
