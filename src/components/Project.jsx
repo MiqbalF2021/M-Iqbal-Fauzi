@@ -5,7 +5,7 @@ const projects = [
   {
     id: 1,
     title: 'Coffeess',
-    imageUrl: 'https://via.placeholder.com/300',
+    imageUrl: "../assets/images/coffeess.png",
     description: 'This is a coffee ordering application, namely a full-stack website application project that I created to fulfill the final assignment for the web programming course in the 5th semester.',
     techStack: [
       { name: 'React', imageUrl: 'https://via.placeholder.com/50' },
