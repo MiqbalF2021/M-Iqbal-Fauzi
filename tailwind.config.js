@@ -10,6 +10,8 @@ export default {
       'primary': '#76ABAE',
       'second': '#31363F',
       'light': '#EEEEEE',
+      'red': '#F05454',
+      'green': '#76ABAE',
     },
     extend: {
     },

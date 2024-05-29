@@ -7,7 +7,7 @@ const projects = [
     progress: 'Finished',
     title: 'Coffeess',
     imageUrl: "/img/coffeess.png",
-    description: 'This is a coffee ordering application, namely a full-stack website application project that I created to fulfill the final assignment for the web programming course in the 5th semester.',
+    description: 'This is a coffee ordering application, namely a full-stack website application project using MERN stack',
     techStack: [
       { name: 'React', imageUrl: "/img/react.png" },
       { name: 'Tailwind CSS', imageUrl: "img/tailwind.png" },
@@ -28,8 +28,8 @@ const projects = [
   },
   {
     id: 3,
-    progress: 'Finished',
-    title: 'Profile : SPS AR-RAHMA',
+    progress: 'In Progress',
+    title: 'Modern Web Profile : SPS AR-RAHMA',
     imageUrl: 'https://via.placeholder.com/300',
     description: 'A website application to detect the amount of burned calories using a machine learning approach.',
     techStack: [
@@ -43,7 +43,7 @@ const projects = [
 const ProjectCard = ({ project }) => (
   <div className=" max-w-xs overflow-hidden shadow-lg bg-gradient-to-r from-second to-bg rounded-lg pb-5 flex flex-col">
   <Link to="/project" className="flex flex-col h-full">
-  <img className="w-full rounded-md p-3 hover:scale-105 transition ease-in-out delay-150 duration-300" src={project.imageUrl} alt={project.title} />
+  <img className="w-full rounded-md p-3" src={project.imageUrl} alt={project.title} />
     <div className="px-6 py-1">
       <div className="font-bold text-lg mb-2 text-primary">{project.title}</div>
       <p className="text-sm text-light">{project.description}</p>
