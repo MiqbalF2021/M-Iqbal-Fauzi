@@ -1,5 +1,5 @@
 import React from 'react'
-import findjob from '/img/findjob.png'
+import findjob from '/img/find.png'
 
 const Experience = () => {
   return (

@@ -9,22 +9,27 @@ const projects = [
     imageUrl: "/img/coffeess.png",
     description: 'This is a coffee ordering application, namely a full-stack website application project using MERN stack',
     techStack: [
-      { name: 'React', imageUrl: "/img/react.png" },
+      { name: 'React js', imageUrl: "/img/react.png" },
       { name: 'Tailwind CSS', imageUrl: "img/tailwind.png" },
       { name: 'express', imageUrl: "/img/express.png" },
       { name: 'mongo db', imageUrl: "img/mongo.png" },
     ],
+    link: "/project/coffeess",
   },
   {
     id: 2,
     progress: 'In Progress',
     title: 'Caloriest Burn Predictions',
-    imageUrl: 'https://via.placeholder.com/300',
+    imageUrl: '/img/home.png',
     description: 'A website application to detect the amount of burned calories using a machine learning approach.',
     techStack: [
-      { name: 'Vue', imageUrl: 'https://via.placeholder.com/50' },
-      { name: 'Bootstrap', imageUrl: 'https://via.placeholder.com/50' },
+      { name: 'React js', imageUrl: "/img/react.png" },
+      { name: 'Tailwind CSS', imageUrl: "img/tailwind.png" },
+      { name: 'express', imageUrl: "/img/express.png" },
+      { name: 'mongo db', imageUrl: "img/mongo.png" },
+      
     ],
+    link: "/project/caloriest-burn-predictions",
   },
   {
     id: 3,
@@ -42,7 +47,7 @@ const projects = [
 
 const ProjectCard = ({ project }) => (
   <div className=" max-w-xs overflow-hidden shadow-lg bg-gradient-to-r from-second to-bg rounded-lg pb-5 flex flex-col">
-  <Link to="/project" className="flex flex-col h-full">
+  <Link to={project.link} className="flex flex-col h-full">
   <img className="w-full rounded-md p-3" src={project.imageUrl} alt={project.title} />
     <div className="px-6 py-1">
       <div className="font-bold text-lg mb-2 text-primary">{project.title}</div>
