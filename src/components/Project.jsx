@@ -6,6 +6,7 @@ const projects = [
     id: 1,
     progress: 'Finished',
     title: 'Coffeess',
+    year : '2023',
     imageUrl: "/img/coffeess.png",
     description: 'This is a coffee ordering application, namely a full-stack website application project using MERN stack',
     techStack: [
@@ -20,6 +21,7 @@ const projects = [
     id: 2,
     progress: 'Finished',
     title: 'Caloriest Burn Predictions',
+    year : '2024',
     imageUrl: '/img/home.png',
     description: 'A website application to detect the amount of burned calories using a machine learning approach.',
     techStack: [
@@ -41,6 +43,7 @@ const ProjectCard = ({ project }) => (
     <div className="px-6 py-1">
       <div className="font-bold text-lg mb-2 text-primary">{project.title}</div>
       <p className="text-sm text-light">{project.description}</p>
+      <p className="text-sm text-primary mt-2 ">{project.year}</p>
     </div>
     <div className="px-6 pt-4 pb-2">
       {project.techStack.map((tech) => (
