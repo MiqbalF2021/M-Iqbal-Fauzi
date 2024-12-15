@@ -19,7 +19,7 @@ const Navbar = () => {
     <div className='bg-bg/50 backdrop-blur py-1 fixed w-full z-50'>
       <div className='flex justify-between items-center px-4 lg:px-8'>
         <div className='text-light font-bold text-lg'>
-          <Link to="/">MyLogo</Link>
+          <Link to="/">M Iqbal F</Link>
         </div>
         <div className='hidden md:flex gap-5'>
           <Link to="/" className={linkClass("/")}>Home</Link>

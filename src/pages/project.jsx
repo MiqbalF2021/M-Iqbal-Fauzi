@@ -1,13 +1,13 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import Projects from '../components/Project'
+import Projects2 from '../components/Project2'
 import Footer from '../components/Footer'
 
 const Project = () => {
   return (
     <div>
       <Navbar/>
-      <Projects/>
+      <Projects2/>
       <Footer/>
     </div>
   )

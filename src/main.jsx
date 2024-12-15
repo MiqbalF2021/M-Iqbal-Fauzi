@@ -5,7 +5,6 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './pages/home'
 import Project from './pages/project'
 import ErrorPage from './pages/404'
-import Calori from './pages/Calori'
 
 const router = createBrowserRouter([
   {
@@ -16,10 +15,6 @@ const router = createBrowserRouter([
   {
     path : "/project",
     element : <Project/>
-  },
-  {
-    path : "/project/caloriest-burn-predictions",
-    element : <Calori/>
   },
 ])
 

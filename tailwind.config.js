@@ -7,7 +7,7 @@ export default {
   theme: {
     colors: {
       'bg': '#222831',
-      'primary': '#76ABAE',
+      'primary': '#78B7D0',
       'second': '#31363F',
       'light': '#EEEEEE',
       'red': '#F05454',

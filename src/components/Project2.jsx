@@ -69,7 +69,7 @@ const Projects = () => (
     ))}
   </div>
   <h1 className='self-end text-primary font-medium text-sm mt-1 hover:text-light lg:mr-20'>
-    <Link to="/project">Show all</Link>
+    <Link to="/">Back to Home</Link>
   </h1>
   </div>
 );
