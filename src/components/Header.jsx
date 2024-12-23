@@ -25,7 +25,13 @@ const Header = () => {
               </a>
                 
             </div>
+            <a 
+            href="\public\muhamah-iqbal-fauzi.pdf"
+            download="muhamad-iqbal-fauzi.pdf"
+            >
             <button className='bg-primary text-white text-sm px-2 py-1 rounded mb-5 font-medium text-bg hover:bg-second hover:text-primary transition ease-in-out delay-150 :-translate-y-1 hover:scale-110 duration-300'>Download CV</button>
+            </a>
+            
         </div>
         <div className='pt-20 flex flex-col justify-center items-center lg:w-1/2 md:w-1/2 bottom-0'> 
             <img src={iqbal} alt="iqbal" className='w-1/2 lg:w-80 md:w-80 self-center items-center xl:w-96'/>
