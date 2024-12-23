@@ -26,7 +26,7 @@ const Header = () => {
                 
             </div>
             <a 
-            href="\public\muhamah-iqbal-fauzi.pdf"
+            href="https://res.cloudinary.com/doypx7azh/image/upload/v1734924210/muhamah-iqbal-fauzi_dwtrkk.pdf"
             download="muhamad-iqbal-fauzi.pdf"
             >
             <button className='bg-primary text-white text-sm px-2 py-1 rounded mb-5 font-medium text-bg hover:bg-second hover:text-primary transition ease-in-out delay-150 :-translate-y-1 hover:scale-110 duration-300'>Download CV</button>
