@@ -31,7 +31,7 @@ const projects = [
       { name: 'mongo db', imageUrl: "img/mongo.png" },
       
     ],
-    link: "/project/caloriest-burn-predictions",
+    link: "https://github.com/MiqbalF2021/Caloriest-Burn-Predictions/",
   },
   // Tambahkan lebih banyak proyek sesuai kebutuhan
 ];
