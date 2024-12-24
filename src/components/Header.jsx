@@ -26,7 +26,7 @@ const Header = () => {
                 
             </div>
             <a 
-            href="https://drive.google.com/file/d/1gaUEC_hBzsbJ6ui3VsO26gJfO00px9oJ/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Hj2HF53hWWyq2fzZGR4UINsRcqXdInw4/view?usp=sharing"
             download="muhamad-iqbal-fauzi.pdf"
             >
             <button className='bg-primary text-white text-sm px-2 py-1 rounded mb-5 font-medium text-bg hover:bg-second hover:text-primary transition ease-in-out delay-150 :-translate-y-1 hover:scale-110 duration-300'>Download CV</button>
