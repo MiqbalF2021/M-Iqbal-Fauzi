@@ -12,7 +12,7 @@ const Header = () => {
             <p className='font-medium text-xs text-light lg:text-sm md:text-sm xl:text-base'>Hello, I am Muhamad <span className='text-primary'>Iqbal</span> Fauzi</p>
             <h1 className='font-bold text-xl text-light lg:text-2xl md:text-2xl xl:text-3xl '><span className='text-primary'>Frontend Developer</span> <span className='font-light'>|</span> Informatics Undergraduate Student</h1>
             <hr className='w-1/4 text-primary mt-2 mb-5'/>
-            <p className='text-xs text-light font-light mb-2 lg:text-sm md:text-sm xl:text-base'>I am an Informatics Undergraduate student at UIN SGD Bandung. I am interested in and learning about frontend developers. Previously, I had been involved in web development projects during my studies. I am very enthusiastic about applying my knowledge and skills in the professional world!</p>
+            <p className='text-xs text-light font-light mb-2 lg:text-sm md:text-sm xl:text-base'>I am an Informatics undergraduate student in my 8th semester at UIN SGD Bandung. I am interested in and continuously learning about frontend development. Previously, I have been involved in various web development projects during my studies. I am highly enthusiastic about applying my knowledge and skills in the professional world!</p>
             <div className='flex gap-3 mb-7'>
               <a href="https://github.com/MiqbalF2021" target='_blank'>
                 <img src={github} alt="github" className='w-6 h-6'/>
@@ -26,7 +26,7 @@ const Header = () => {
                 
             </div>
             <a 
-            href="https://drive.google.com/file/d/1Hj2HF53hWWyq2fzZGR4UINsRcqXdInw4/view?usp=sharing"
+            href="https://drive.google.com/file/d/1G5l9x30D0YND9jki3uANld-KWOz1Ejwo/view?usp=sharing"
             download="muhamad-iqbal-fauzi.pdf"
             >
             <button className='bg-primary text-white text-sm px-2 py-1 rounded mb-5 font-medium text-bg hover:bg-second hover:text-primary transition ease-in-out delay-150 :-translate-y-1 hover:scale-110 duration-300'>Download CV</button>
